@@ -1,10 +1,21 @@
-let name = 'protective field generator';
-let price = 1000;
-
-console.log(`Selected ${name} per ${price} credits for one`);
-
-let newPrice = name + 1000;
-
-console.log(`Selected ${name} per ${newPrice} credits for one`);
-
 // my first lesson
+
+// Assigned values to variables
+let productName = 'protective field generator'; 
+let productPrice = 1000;
+
+// New values to variable 
+let newProductPrice = 2000;
+
+// Output to the console
+console.log(`Selected ${productName} per ${productPrice} credits for one`);
+console.log(`Selected ${productName} per ${newProductPrice} credits for one`);
+
+// Assigned, output value to variables
+let myFirstProdact = (`Selected ${productName} per ${productPrice} credits for one`);
+let mySecondProduct = (`Selected ${productName} per ${newProductPrice} credits for one`);
+
+// Output myFirstProdact and mySecondProduct with new price to the alert
+alert(myFirstProdact);
+alert(mySecondProduct);
+
