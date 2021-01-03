@@ -8,5 +8,6 @@ let input = prompt("Please enter your number");
 while (input) {
     total = total + (+input);
     input = prompt("Please enter your number");
-   }
+    }
+
 alert(`The total sum of the numbers is ${total}`);
