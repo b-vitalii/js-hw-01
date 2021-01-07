@@ -9,6 +9,11 @@ let input = parseInt(prompt("Please enter your number"));
 for (let t = 0; input > 0; t++) {
     total += input;
     input = parseInt(prompt("Please enter your number"))
+     
+    }
+for (let i = 0; input < 0; i++) {
+    total += input;
+    input = parseInt(prompt("Please enter your number"))
     
 }
 alert(`The total sum of the numbers is ${total}`);
