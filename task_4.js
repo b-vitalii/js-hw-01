@@ -12,13 +12,15 @@ if (massage === null){
     alert("Canceled by user!")
 } else if (massage < 0){
     alert("Err")
-} else {
+} else if (isNaN(massage)){
+    alert(`Enter a number please`);
+}else {
     totalPrice = massage * pricePerDroid; 
-    alert(totalPrice);
+    alert(`Your total price is ${totalPrice}`);
         if (totalPrice > credits) {
         alert("Not enough credits in your account!")
         } else if (totalPrice < credits) {
             let remainder = credits - totalPrice;
             alert(`You bought ${massage} of droids and ${remainder} credits remain in your account.`)
         }
-}
+    }
