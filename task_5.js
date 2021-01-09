@@ -24,9 +24,6 @@ switch (massage.toUpperCase()) {
     case `JAMAICA`:
         alert(`Shipping to ${massage[0].toUpperCase() + massage.slice(1).toLowerCase()} will cost ${priceJamaica} credits`)
         break;
-    case null:
-        alert(`Canceled by user!`)
-        break;
     default:
         alert(`Delivery is not available in your country`);
         break;
